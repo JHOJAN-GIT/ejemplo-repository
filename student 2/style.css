@@ -1,0 +1,21 @@
+
+/* Reutiliza la paleta e implementa layout Grid responsivo */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card-dynamic {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 15px;
+  border: 1px solid var(--color-accent);
+  border-radius: 8px;
+}
+
+.card-dynamic span {
+  color: var(--color-accent);
+  font-weight: bold;
+}
